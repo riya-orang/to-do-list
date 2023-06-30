@@ -7,8 +7,8 @@ __This Project is a part of my CodeClause Web Development Intenship.__
 
 
 ## **ToDo List UI**
+![Screenshot 2023-06-30 232234](https://github.com/riya-orang/to-do-list/assets/101129794/69f1f302-f319-4959-add9-2a236da028bd)
 
-![image](https://github.com/sudipmahato432/OIBSIP_3/assets/80632874/e848f1d9-a220-45ae-ad84-20379af85efd)
 
 
 ## Features
@@ -20,17 +20,7 @@ __This Project is a part of my CodeClause Web Development Intenship.__
 - Mark tasks as completed or pending.
 
 
-## Usage
 
-1. Clone the repository:
-```Git Command
-git clone https://github.com/sudipmahato432/ToDo-List.git
-```
-2. Navigate to the project directory:
-```Git Command
-cd ToDo-List
-```
-3. Open the `index.html` file in your preferred web browser (preferably with Live Server extention).
 
 ## How to Add a Task
 
