@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #dd4444bd;
+}
+
+.navbar{
+    background-color: #ebc487;
+    font-size: small;
+}
+
+.navbar h1{
+    text-align: center;
+    padding: 3px 0;
+    color: rgb(139 25 226);
+}
+
+.S1{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.section-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 35rem;
+    height: 25rem;
+    margin: 2rem 0 0 3rem;
+    padding: 1rem 1rem;
+    background-color: #5832e3ab;
+    
+}
+
+.submitButton{
+    padding: 8px 0;
+    border: none;
+    outline: none;
+    background-color: rgb(42 61 164);
+    color: white;
+}
+
+input[name = title]{
+    padding: 8px ;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #b8aaec;
+}
+
+textarea[name = Description]{
+    padding: 8px;
+    resize: none;
+    overflow: scroll;
+    background-color: #b2a4e5;
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.S2{
+    width: 100vw;
+}
+
+.section-2{
+    margin: 2rem 0 0 3rem;
+    padding: 0 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: auto;
+}
+
+table{
+    width: 100%;
+    color: white;
+}
+
+th{
+    border-bottom: 1px solid white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+td{
+    padding: 0.5rem 1rem; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+th:nth-child(2),td:nth-child(2){
+    min-width: 10rem;
+}
+
+th:nth-child(3),td:nth-child(3){
+    min-width: 30rem;
+    max-width: auto;
+}
+
+th:nth-child(4), th:nth-child(5){
+    width: 100px;
+    
+}
+
+td:nth-child(4), td:nth-child(5){
+    width: 100px;
+    text-align: center;
+}
+
+input[name = pendingOrCompleted]{
+    height: 20px;
+    width: 20px;
+}
+
+.btn-edit,.btn-delete{
+    cursor: pointer;
+}
+
+
+.tabs-label{
+    cursor: pointer;
+    color: white;
+    padding:5px 10px;
+    font-size: 1.4rem;
+    border: 2px solid #dcc3378a;
+}
+
+.tabs-radio{
+    display: none;
+}
+
+.tabs-label{
+    background-color: #3be7566b;
+    width: 100%;
+    text-align: center;
+}
+
+#pending-table{
+    margin-bottom: 2rem;
+}
